@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 )
-
+//решил в пулл собирать коннекты вместо каналов
 type (
 	Entity struct {
 		Line    net.Conn
